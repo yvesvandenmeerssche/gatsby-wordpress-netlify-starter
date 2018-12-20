@@ -23,7 +23,7 @@ module.exports = {
       resolve: 'gatsby-source-wordpress',
       options: {
         // The base url to your WP site.
-        baseUrl: 'gatsbynetliflydemo.justinwhall.com',
+        baseUrl: 'surfbnb.tv/restapi/',
         // baseUrl: 'wpgatsby.wtf',
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
