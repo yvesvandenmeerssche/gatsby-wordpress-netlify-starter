@@ -62,7 +62,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
         // Create those pages with the wp_page.jsx template.
-        const pageTemplate = path.resolve(`./src/templates/wp_page.jsx`)
+        const pageTemplate = path.resolve(`src/templates/wp_page.jsx`)
         _.each(result.data.allWordpressPage.edges, edge => {
           if (edge.node.fields.deploy) {
             createPage({
