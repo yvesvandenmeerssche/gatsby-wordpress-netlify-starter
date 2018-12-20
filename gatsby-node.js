@@ -104,7 +104,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
 
           const categories = []
-          const postTemplate = path.resolve(`./src/templates/post.jsx`)
+          const postTemplate = path.resolve(`src/templates/post.jsx`)
           // We want to create a detailed page for each
           // post node. We'll just use the Wordpress Slug for the slug.
           // The Post ID is prefixed with 'POST_'
@@ -132,7 +132,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           // Create pages for each unique category
 
           const categoriesTemplate = path.resolve(
-            `./src/templates/category.jsx`
+            `src/templates/category.jsx`
           )
 
           const catSet = new Set(categories)
