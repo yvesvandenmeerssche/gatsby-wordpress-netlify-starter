@@ -10,7 +10,7 @@ module.exports = {
   googleAnalyticsID: "", // GA tracking ID.
   disqusShortname: "", // Disqus shortname.
   postDefaultCategoryID: "Uncategorized", // Default category for posts.
-  userName: "User", // Username to display in the author segment.
+  userName: "restapi", // Username to display in the author segment.
   userTwitter: "@livethelifetv", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Jeffreys Bay, South Africa ", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
@@ -25,12 +25,12 @@ module.exports = {
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/justinwhall",
+      url: "https://twitter.com/livetheliftv",
       iconClassName: "fa fa-twitter"
     },
     {
       label: "Email",
-      url: "justinwhall@me.com",
+      url: "yves@livethelife.tv",
       iconClassName: "fa fa-envelope"
     }
   ],
